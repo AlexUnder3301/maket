@@ -7,13 +7,13 @@ body {
 
 @font-face {
     font-family: 'TT Lakes';
-    src: url(../Fonts/TTLakes-Regular.woff);
+    src: url(Fonts/TTLakes-Regular.woff);
 }
 
 @font-face {
     font-family: "TT Lakes Bold";
     font-weight: bold;
-    src: url(../Fonts/TTLakes-Bold.woff);
+    src: url(Fonts/TTLakes-Bold.woff);
 }
 
 
