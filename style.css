@@ -17,11 +17,6 @@ body {
 }
 
 
-.icon {
-    height: 40px;
-    width: 40px;
-}
-
 .stick {
     border-right: 4px solid #41F6D7;
     height: 40px;
@@ -51,12 +46,12 @@ h1 {
 }
 
 
-.logo {
+.header-container__logo {
     height: 50px;
     width: 96px;
 }
 
-.divider {
+.header-container__divider {
     height: 32px;
     border: solid 1px #EAEAEA;
     width: 0;
@@ -87,7 +82,7 @@ ul li:first-child {
 }
 
 
-.main-info {
+.article-container__main-info {
     margin: 13px 25px;
 }
 
@@ -103,19 +98,19 @@ button:hover {
     color: rgb(105, 105, 105);
 }
 
-.readmore-img {
+.article-container__readmore-img {
     margin-left: 25px;
 }
 
-.kartinka { 
+.article-container__kartinka { 
     margin-top: 16px;
     width: 100vw;
 }
 
 .divider-first,
-.call-icon, 
-.chat-icon,
-.profile-icon {
+.header-container__call-icon, 
+.header-container__chat-icon,
+.header-container__profile-icon {
     display: none;
 }
 
@@ -123,7 +118,7 @@ button:hover {
     display: none;
 }
 
-.jopa {
+.fake-header {
     display: none;
 }
 
@@ -135,15 +130,15 @@ button:hover {
         grid-template-columns: 1fr 1fr;
     }
 
-    .kartinka {
+    .article-container__kartinka {
         border-radius: 6px; 
             width: 90%;
         }
 
     .divider-first,
-    .call-icon, 
-    .chat-icon,
-    .profile-icon {
+    .header-container__call-icon, 
+    .header-container__chat-icon,
+    .header-container__profile-icon {
         display: block;
     }
 
@@ -151,15 +146,15 @@ button:hover {
         justify-content: start;
     }
 
-    .icon {
+    .header-container__icon {
         margin-right: 20px;
     }
 
-    .logo {
+    .header-container__logo {
         margin-right: auto;
     }
 
-    .menu-icon {
+    .header-container__menu-icon {
         margin-left: 20px;
     }
 
@@ -183,7 +178,7 @@ button:hover {
         display: none;
     }
 
-    .kartinka {
+    .article-container__kartinka {
         width: 90%;
     }
 
@@ -195,7 +190,7 @@ button:hover {
         display: inline-block;
     }
 
-    .jopa {
+    .fake-header {
         display: flex;
         align-items: center;
     }
@@ -204,12 +199,12 @@ button:hover {
         margin-right: auto;
     }
     
-    .items {
+    .fake-header__items {
         align-items: center;
         padding: 5px;
     }
 
-    img.items {
+    img.fake-header__items {
         margin-right: 10px;
     }
 
