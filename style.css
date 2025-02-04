@@ -2,6 +2,7 @@ body {
     margin: 0;
     background-color: #F8F8F8;
     font-family: "TT Lakes";
+    width: 100vw;
 }
 
 @font-face {
@@ -109,6 +110,7 @@ button:hover {
 
 .kartinka { 
     margin-top: 16px;
+    width: 100vw;
 }
 
 .divider-first,
