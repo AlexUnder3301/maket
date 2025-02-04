@@ -65,11 +65,14 @@ h1 {
 
 
 
-ul {
+.list {
+    display: flex;
+    flex-wrap: nowrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: scroll;
+    margin-left: 16px;
 }
 
 li {
@@ -81,13 +84,8 @@ ul li:first-child {
     border: 2px solid #B8FFEC;
     background-color: white;
     border-radius: 5px;
-    margin-left: 16px;
 }
 
-.list {
-    display: flex;
-    flex-wrap: nowrap;
-}
 
 .main-info {
     margin: 13px 25px;
@@ -139,8 +137,8 @@ button:hover {
 
     .kartinka {
         border-radius: 6px; 
-        width: 360px;
-    }
+            width: 90%;
+        }
 
     .divider-first,
     .call-icon, 
@@ -173,6 +171,10 @@ button:hover {
         display: none;
     }
 
+    .list {
+        margin-left: 24px;
+    }
+
 }
 
 
@@ -182,7 +184,7 @@ button:hover {
     }
 
     .kartinka {
-        width: 530px;
+        width: 90%;
     }
 
     .more-text {
@@ -214,4 +216,12 @@ button:hover {
     .real-h1 {
         display: none;
     }
+
+    .list {
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin-left: 32px;
+    }
+
+
 }
